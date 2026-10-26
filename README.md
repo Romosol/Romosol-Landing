@@ -1,11 +1,21 @@
-<div align="center">
+# Портфолио — Роман Солодовников
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Минималистичный персональный сайт-портфолио и цифровая визитка.
 
-  <h1>Built with AI Studio</h2>
+## Возможности
+- **Обо мне**: Краткая сводка, вертикальная фотография и контакты
+- **Мои проекты**: Каталог реальных репозиториев (Navigator Tools REST API, Digital LogBook, Navigator Tools Selenium)
+- **Мои 3D модели**: Интерактивный 3D-просмотрщик в реальном времени на Three.js (WebGL) с зумом и плавным вращением
+- **Интересные ссылки**: Подборка ресурсов и аудио (Radio Garden, Steam, Bumpmesh)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Запуск локально
+```bash
+npm install
+npm run dev
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Сборка для GitHub Pages
+```bash
+npm run build
+```
+Папка `dist/` готова к деплою на GitHub Pages.
