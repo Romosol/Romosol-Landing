@@ -130,7 +130,7 @@ export default function App() {
       ],
       role: 'Автор проекта, реверс-инжиниринг API, разработка GUI и интеграция с Excel',
       githubUrl: 'https://github.com/Romosol/Navigator-Tools-REST-API-',
-      highlight: 'v2.1 &bull; REST API'
+      highlight: 'v2.3.1'
     },
     {
       id: 'digital-logbook',
@@ -149,7 +149,7 @@ export default function App() {
       ],
       role: 'Архитектура приложения, разработка логики учета и структуры хранения данных',
       githubUrl: 'https://github.com/Romosol/Digital-LogBook-for-GBU-DO-RDOT',
-      highlight: 'ГБУ ДО РДОТ'
+      highlight: 'v1.0.8'
     },
     {
       id: 'navigator-selenium',
@@ -168,7 +168,7 @@ export default function App() {
       ],
       role: 'Разработка скриптов автоматизации и обработчиков веб-страниц',
       githubUrl: 'https://github.com/Romosol/Navigator-Tools-selenium',
-      highlight: 'Selenium RPA'
+      highlight: 'v1.5'
     }
   ];
 
@@ -436,7 +436,7 @@ export default function App() {
     },
     {
       id: 'nasadka-v2',
-      name: 'Насадка на трубу 110 (Final v2)',
+      name: 'Циклон 110 (Final v2)',
       fileName: 'насадка на трубу 110 final v2.stl',
       fileUrl: '/models/nasadka_110_final_v2.stl',
       category: 'engineering',
@@ -444,12 +444,12 @@ export default function App() {
       polygons: '105.3k граней',
       dimensions: '140 × 181 × 154 мм',
       software: 'Параметрический CAD',
-      description: 'Вторая версия насадки на 110-ю трубу с усиленным фланцем, дефлектором и улучшенной аэродинамикой.',
+      description: 'Циклон с установкой на трубу 110, либо на другую тару.',
       color: '#f97316'
     },
     {
       id: 'nasadka-v1',
-      name: 'Насадка на трубу 110 (Final v1)',
+      name: 'Циклон 110 (Final v1)',
       fileName: 'насадка на трубу 110 final.stl',
       fileUrl: '/models/nasadka_110_final.stl',
       category: 'engineering',
@@ -457,7 +457,7 @@ export default function App() {
       polygons: '58.5k граней',
       dimensions: '140 × 140 × 124 мм',
       software: 'Параметрический CAD',
-      description: 'Базовая версия монтажного переходника на трубу диаметром 110 мм с фланцем и ребрами жесткости.',
+      description: 'Циклон с установкой на трубу 110, либо на другую тару. Немного переделаны сопла',
       color: '#eab308'
     },
     {
