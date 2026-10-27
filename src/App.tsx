@@ -550,7 +550,7 @@ export default function App() {
       subtitle: 'dialed.gg',
       category: 'games',
       url: 'https://dialed.gg/',
-      description: 'Платформа и аналитический соревновательный трекер для мониторинга игровой активности и настроек в соревновательных играх.',
+      description: 'Игры на память.',
       badge: 'Гейминг'
     },
     {
@@ -591,12 +591,12 @@ export default function App() {
     },
     {
       id: 'edem',
-      title: 'Edem TV',
+      title: 'Edem',
       subtitle: 'edem.cc',
       category: 'media',
       url: 'https://edem.cc/',
-      description: 'Популярный сервис цифрового IPTV-вещания телеканалов и медиапотоков высокой четкости.',
-      badge: 'IPTV'
+      description: 'Куда и как можно попасть.',
+      badge: 'Интерактив'
     },
     {
       id: 'trafficvision',
@@ -613,17 +613,17 @@ export default function App() {
       subtitle: 'choicervoicer.games',
       category: 'games',
       url: 'https://choicervoicer.games/',
-      description: 'Коллекция интерактивных текстовых и голосовых квестов, где развитие сюжета формируется выбором игрока.',
+      description: 'Игра, где нужно имитировать голос.',
       badge: 'Интерактив'
     },
     {
       id: 'my9games',
       title: 'My9Games',
       subtitle: 'my9games.net/en',
-      category: 'games',
+      category: 'media',
       url: 'https://my9games.net/en',
-      description: 'Портал винтажных и казуальных браузерных мини-игр разнообразных жанров.',
-      badge: 'Аркады'
+      description: 'Расскажи о своих лбимых играх и аниме.',
+      badge: 'Игры'
     },
     {
       id: 'reinachan',
@@ -638,10 +638,10 @@ export default function App() {
       id: 'slothmon',
       title: 'SlothMon',
       subtitle: 'kuuhugu.github.io/SlothMon',
-      category: 'games',
+      category: 'tech',
       url: 'https://kuuhugu.github.io/SlothMon/',
-      description: 'Браузерная пиксельная игра про ленивцев, размещенная на GitHub Pages.',
-      badge: 'GitHub Pages'
+      description: 'Сделай смартфон вторым монитором.',
+      badge: 'Технологии'
     },
     {
       id: 'anythingrip',
@@ -658,7 +658,7 @@ export default function App() {
       subtitle: 'zerohour.gg',
       category: 'games',
       url: 'https://zerohour.gg/',
-      description: 'Официальный портал тактического шутера Zero Hour с упором на штурмовые операции и командную слаженность.',
+      description: 'Официальный портал стратегии Zero Hour.',
       badge: 'Тактический шутер'
     },
     {
@@ -717,7 +717,7 @@ export default function App() {
               <div className="relative group w-44 sm:w-52 aspect-[3/4] rounded-xl overflow-hidden border border-neutral-700 bg-neutral-950 shadow-2xl transition-all duration-300 hover:border-neutral-500">
                 <img
                   src={getAssetUrl('fish.jpg')}
-                  alt="Роман Солодовников"
+                  alt="фото с рыбой (не ии)"
                   className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-[1.02]"
                 />
                 <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-xl pointer-events-none" />
@@ -1239,28 +1239,6 @@ export default function App() {
                 </div>
               )}
 
-              {/* Специальная карточка: Пасхалка / Загадка из js.js */}
-              <div className="border border-neutral-800 bg-neutral-900/30 rounded-xl p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400 shrink-0">
-                    <Sparkles className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-semibold text-white">Философская загадка</h4>
-                    <p className="text-xs text-neutral-400 mt-0.5">
-                      Интерактивный вопрос из вашего оригинального скрипта <code className="text-amber-400/90 font-mono">js.js</code>
-                    </p>
-                  </div>
-                </div>
-
-                <button
-                  type="button"
-                  onClick={() => setShowRiddle(true)}
-                  className="px-3.5 py-1.5 rounded-lg bg-neutral-800 hover:bg-neutral-700 text-neutral-200 border border-neutral-700 text-xs font-medium transition cursor-pointer whitespace-nowrap"
-                >
-                  Открыть загадку
-                </button>
-              </div>
             </div>
           )}
         </section>
@@ -1270,7 +1248,7 @@ export default function App() {
            ========================================================================= */}
         <footer className="border-t border-neutral-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400">
           <div>
-            <span>&copy; {new Date().getFullYear()} Роман Солодовников &bull; </span>
+            <span>&copy; {new Date().getFullYear()} Romosol &bull; </span>
             <a 
               href="https://github.com/Romosol" 
               target="_blank" 
