@@ -119,7 +119,7 @@ export default function App() {
       tagline: 'Автоматизация рутинных задач на портале Навигатор ДО через REST API',
       category: 'Python / REST API',
       year: '2026',
-      stack: ['Python', 'REST API', 'Requests', 'OpenPyXL'],
+      stack: ['DevTools', 'REST API', 'Python', 'OpenPyXL'],
       description: 'Высокопроизводительный инструмент автоматизации взаимодействия с региональной АИС «Навигатор дополнительного образования». Заменяет медленный ручной ввод данных через веб-интерфейс на пакетную фоновую обработку через прямые HTTPS REST API запросы.',
       features: [
         'Работает с большими списками из Excel',
@@ -738,6 +738,50 @@ export default function App() {
               <p className="text-sm sm:text-base text-neutral-300 leading-relaxed max-w-xl font-normal">
                 Разрабатываю инструменты автоматизации рутинных процессов (Python, REST API, Selenium) и инженерные 3D-модели под печать.
               </p>
+
+              {/* Стек технологий */}
+              <div className="p-3 rounded-xl bg-neutral-950/80 border border-neutral-800/80 max-w-xl space-y-2 text-left">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="font-mono text-neutral-400 font-medium text-xs min-w-[54px]">QA:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['DevTools', 'HTTPS', 'REST', 'JSON API', 'SQL', 'Git'].map((item) => (
+                      <span key={item} className="px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-200 font-mono text-[11px]">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="font-mono text-neutral-400 font-medium text-xs min-w-[54px]">3D:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['КОМПАС-3D', 'FreeCad', 'OrcaSlicer', 'PrusaSlicer'].map((item) => (
+                      <span key={item} className="px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-200 font-mono text-[11px]">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="font-mono text-neutral-400 font-medium text-xs min-w-[54px]">Code:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['Python', 'C++'].map((item) => (
+                      <span key={item} className="px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-200 font-mono text-[11px]">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="font-mono text-neutral-400 font-medium text-xs min-w-[54px]">Языки:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {['русский', 'английский'].map((item) => (
+                      <span key={item} className="px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-200 font-mono text-[11px]">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
 
               {/* Цитата из репозитория */}
               <div className="pt-1">
